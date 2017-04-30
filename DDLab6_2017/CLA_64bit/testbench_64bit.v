@@ -23,7 +23,7 @@ module testbench;
 	/////// initial ///////
 	initial begin
 
-	$dumpfile("lab6_64bit.fsdb");
+	$dumpfile("lab6_64bit.vcd");
 	$dumpvars;
 	CLK = 1'b0;
 	#10 reset = 1;
