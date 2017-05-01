@@ -1,0 +1,62 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Apr 21 14:51:36 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "opa" LOCATE = SITE "M18" LEVEL 1;
+COMP "opm" LOCATE = SITE "P17" LEVEL 1;
+COMP "ops" LOCATE = SITE "P18" LEVEL 1;
+COMP "rst" LOCATE = SITE "N17" LEVEL 1;
+COMP "a<0>" LOCATE = SITE "T8" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "a<2>" LOCATE = SITE "R16" LEVEL 1;
+COMP "a<3>" LOCATE = SITE "T13" LEVEL 1;
+COMP "a<4>" LOCATE = SITE "H6" LEVEL 1;
+COMP "a<5>" LOCATE = SITE "U12" LEVEL 1;
+COMP "a<6>" LOCATE = SITE "U11" LEVEL 1;
+COMP "a<7>" LOCATE = SITE "V10" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "J15" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "L16" LEVEL 1;
+COMP "b<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "b<3>" LOCATE = SITE "R15" LEVEL 1;
+COMP "b<4>" LOCATE = SITE "R17" LEVEL 1;
+COMP "b<5>" LOCATE = SITE "T18" LEVEL 1;
+COMP "b<6>" LOCATE = SITE "U18" LEVEL 1;
+COMP "b<7>" LOCATE = SITE "R13" LEVEL 1;
+COMP "sledctl<6>" LOCATE = SITE "L18" LEVEL 1;
+COMP "sledctl<5>" LOCATE = SITE "T11" LEVEL 1;
+COMP "sledctl<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "sledctl<4>" LOCATE = SITE "P15" LEVEL 1;
+COMP "sledctl<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "sledctl<2>" LOCATE = SITE "K16" LEVEL 1;
+COMP "sledctl<1>" LOCATE = SITE "R10" LEVEL 1;
+COMP "spctl<7>" LOCATE = SITE "U13" LEVEL 1;
+COMP "spctl<5>" LOCATE = SITE "T14" LEVEL 1;
+COMP "spctl<6>" LOCATE = SITE "K2" LEVEL 1;
+COMP "spctl<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "spctl<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "spctl<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "spctl<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "spctl<2>" LOCATE = SITE "T9" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "op_0" BEL "op_1" BEL "result_0" BEL "result_1" BEL
+        "result_2" BEL "result_3" BEL "result_4" BEL "result_5" BEL "result_6"
+        BEL "result_7" BEL "result_8" BEL "result_9" BEL "result_10" BEL
+        "result_11" BEL "result_12" BEL "result_13" BEL "result_14" BEL
+        "result_15" BEL "ctl7seg1/count_11" BEL "ctl7seg1/count_10" BEL
+        "ctl7seg1/count_9" BEL "ctl7seg1/count_8" BEL "ctl7seg1/count_7" BEL
+        "ctl7seg1/count_6" BEL "ctl7seg1/count_5" BEL "ctl7seg1/count_4" BEL
+        "ctl7seg1/count_3" BEL "ctl7seg1/count_2" BEL "ctl7seg1/count_1" BEL
+        "ctl7seg1/count_0" BEL "ctl7seg1/sledctl_6" BEL "ctl7seg1/sledctl_5"
+        BEL "ctl7seg1/sledctl_4" BEL "ctl7seg1/sledctl_3" BEL
+        "ctl7seg1/sledctl_2" BEL "ctl7seg1/sledctl_1" BEL "ctl7seg1/sledctl_0"
+        BEL "ctl7seg1/tmpin_3" BEL "ctl7seg1/tmpin_2" BEL "ctl7seg1/tmpin_1"
+        BEL "ctl7seg1/tmpin_0" BEL "ctl7seg1/spctl_6" BEL "ctl7seg1/spctl_5"
+        BEL "ctl7seg1/spctl_4" BEL "ctl7seg1/spctl_3" BEL "ctl7seg1/spctl_2"
+        BEL "ctl7seg1/spctl_1" BEL "ctl7seg1/spctl_0" BEL "ctl7seg1/dr" BEL
+        "result_9_1" BEL "result_10_1" BEL "result_15_1" BEL "result_14_1" BEL
+        "result_13_1" BEL "result_11_1" BEL "result_11_2" BEL "result_14_2"
+        BEL "result_15_2" BEL "result_11_3" BEL "result_12_1" BEL
+        "result_13_2" BEL "clk_BUFGP/BUFG";
+SCHEMATIC END;
+

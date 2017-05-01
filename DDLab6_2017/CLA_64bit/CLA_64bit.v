@@ -20,7 +20,7 @@ module cla_64bit( a, b, cin, s, cout);
 	gp_generator gp4(.a(a[15:12]), .b(b[15:12]), .p(p[15:12]), .g(g[15:12]));
 	gp_generator gp5(.a(a[19:16]), .b(b[19:16]), .p(p[19:16]), .g(g[19:16]));
 	gp_generator gp6(.a(a[23:20]), .b(b[23:20]), .p(p[23:20]), .g(g[23:20]));
-	gp_generator gp7(.a(a[27:24]), .b(b[27:24]), .p(p[27:24]), .g(g[27:24]));
+	gp_generator gp7(.a(a[27:24]), .b(b[27:24]),  .p(p[27:24]), .g(g[27:24]));
 	gp_generator gp8(.a(a[31:28]), .b(b[31:28]), .p(p[31:28]), .g(g[31:28]));
 	gp_generator gp9(.a(a[35:32]), .b(b[35:32]), .p(p[35:32]), .g(g[35:32]));
 	gp_generator gp10(.a(a[39:36]), .b(b[39:36]), .p(p[39:36]), .g(g[39:36]));
